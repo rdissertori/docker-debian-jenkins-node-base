@@ -1,4 +1,4 @@
-FROM jenkins/agent:agent:latest-jdk11
+FROM jenkins/agent:latest-jdk11
 ENV UID=1000 GID=1000
 USER root
 RUN apt-get update -y \
