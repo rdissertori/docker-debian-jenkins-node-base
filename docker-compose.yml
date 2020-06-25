@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  alpine-jenkins-node-base:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: rdissertori/alpine-jenkins-node-base:1.0
